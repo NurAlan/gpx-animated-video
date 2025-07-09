@@ -105,8 +105,8 @@ def main():
         except Exception as e:
             print(f"Error loading basemap: {e}")
 
-        ax.plot(x_vals[:i], y_vals[:i], color="red", linewidth=2)
-        ax.plot([cx], [cy], "bo", markersize=4)
+        ax.plot(x_vals[:i], y_vals[:i], color="orange", linewidth=10)
+        ax.plot([cx], [cy], "go", markersize=20)
         ax.axis("off")
         fig.tight_layout(pad=0)
 
