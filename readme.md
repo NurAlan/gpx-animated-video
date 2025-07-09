@@ -37,10 +37,11 @@ Pastikan Python 3.9+ sudah terinstal di sistem Anda.
 ```bash
 git clone https://github.com/username/gpx-cinematic-tracker.git 
 cd gpx-cinematic-tracker
+```
 
 2. Install dependensi:
 
-```
+```bash
 python gpx_cinematic.py --gpx <file.gpx> \
                         --output <video.mp4> \
                         --sample <N> \
@@ -48,6 +49,7 @@ python gpx_cinematic.py --gpx <file.gpx> \
                         --windowsize <meter> \
                         --resolution <widthxheight>
 ```
+
 🔧 Argumen CLI:
 |argumen|Deskripsi|
 |`--gpx` | Path ke file GPX Anda (wajib) |
