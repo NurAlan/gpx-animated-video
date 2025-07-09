@@ -1,8 +1,8 @@
-gpxpy>=5.0.1
-geopandas>=0.13.2
-matplotlib>=3.7.2
-contextily>=1.4.1
-shapely>=2.0.2
-numpy>=1.25.2
-opencv-python>=4.8.0.76
-tqdm>=4.66.0
+gpxpy
+geopandas
+matplotlib
+contextily
+shapely
+numpy
+opencv-python
+tqdm
