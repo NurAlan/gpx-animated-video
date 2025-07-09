@@ -51,7 +51,8 @@ python gpx_cinematic.py --gpx <file.gpx> \
 ```
 
 🔧 Argumen CLI:
-|argumen|Deskripsi|
+| argumen | Deskripsi |
+|-------------| --------|
 |`--gpx` | Path ke file GPX Anda (wajib) |
 |`--output`| Nama file video keluaran (default:`gpx_cinematic_overlay.mp4`)|
 | `--sample` | Ambil 1 dari setiap N titik untuk performa (default: 3) |
